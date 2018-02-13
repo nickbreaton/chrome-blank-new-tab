@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="styles/options.css">
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+</head>
+<body>
+  <div class="toolbar">
+    <h1>Blank New Tab</h1>
+  </div>
+  <div class="center">
+
+    <h3>Tab Text</h3>
+    <form>
+      <section class="card">
+        <label>
+          <div class="radio">
+            <div class="mdc-radio">
+              <input class="mdc-radio__native-control" type="radio" id="tab-text--custom" checked="" name="ex1-default">
+              <div class="mdc-radio__background">
+                <div class="mdc-radio__outer-circle"></div>
+                <div class="mdc-radio__inner-circle"></div>
+              </div>
+            </div>
+          </div>
+          <span>Custom</span>
+        </label>
+        <label>
+          <div class="radio"><!-- for spacing --></div>
+          <input class="input" type="text" id="tab-text-content" placeholder="Tab Text">
+        </label>
+        <label>
+          <div class="radio">
+            <div class="mdc-radio">
+              <input class="mdc-radio__native-control" type="radio" id="tab-text--none" name="ex1-default">
+              <div class="mdc-radio__background">
+                <div class="mdc-radio__outer-circle"></div>
+                <div class="mdc-radio__inner-circle"></div>
+              </div>
+            </div>
+          </div>
+          <span>None</span>
+        </label>
+      </section>
+    </form>
+
+    <h3>Sync</h3>
+    <section class="card">
+      <label class="split">
+        <span>Sync options across Google Chrome installs</span>
+        <div class="mdc-switch">
+          <input type="checkbox" class="mdc-switch__native-control">
+          <div class="mdc-switch__background">
+            <div class="mdc-switch__knob"></div>
+          </div>
+        </div>
+      </label>
+    </section>
+
+  </div>
+  <script src="scripts/render.js"></script>
+  <script src="scripts/options.js"></script>
+</body>
+</html>
