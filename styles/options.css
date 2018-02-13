@@ -87,7 +87,7 @@ h3 {
 .input {
   outline: 0;
   border: none;
-  border-bottom: 1px solid var(--body-foreground);
+  border-bottom: 1px solid rgb(224, 224, 224);
   font-size: 13px;
   margin-top: calc(-1rem - 5px);
   margin-left: 2px;
@@ -98,9 +98,11 @@ h3 {
 
 .input::-webkit-input-placeholder {
   font-weight: 400;
+  color: rgb(172, 172, 172);
 }
 
-.input:focus, .input:active {
+.input:focus,
+.input:active {
   border-bottom: 2px solid var(--button-foreground);
 }
 
