@@ -1,2 +1,2 @@
-renderTitle()
+'use strict'
 onTitleChange(renderTitle)
