@@ -1,1 +1,2 @@
-render()
+renderTitle()
+onTitleChange(renderTitle)

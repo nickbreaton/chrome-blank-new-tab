@@ -75,6 +75,10 @@ h3 {
   cursor: pointer;
 }
 
+.no-pointer {
+  cursor: unset !important;
+}
+
 .card label.split {
   justify-content: space-between;
 }
@@ -87,7 +91,7 @@ h3 {
 .input {
   outline: 0;
   border: none;
-  border-bottom: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(195, 195, 195);
   font-size: 13px;
   margin-top: calc(-1rem - 5px);
   margin-left: 2px;

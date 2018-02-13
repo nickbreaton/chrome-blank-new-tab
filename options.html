@@ -9,15 +9,15 @@
   <div class="toolbar">
     <h1>Blank New Tab</h1>
   </div>
-  <div class="center">
+  <div class="center" id="content" style="display:none;">
 
     <h3>Tab Text</h3>
-    <form>
+    <form id="tab-text">
       <section class="card">
         <label>
           <div class="radio">
             <div class="mdc-radio">
-              <input class="mdc-radio__native-control" type="radio" id="tab-text--custom" checked="" name="ex1-default">
+              <input class="mdc-radio__native-control" type="radio" name="radio" value="custom" checked>
               <div class="mdc-radio__background">
                 <div class="mdc-radio__outer-circle"></div>
                 <div class="mdc-radio__inner-circle"></div>
@@ -26,14 +26,14 @@
           </div>
           <span>Custom</span>
         </label>
-        <label>
-          <div class="radio"><!-- for spacing --></div>
-          <input class="input" type="text" id="tab-text-content" placeholder="Tab Text">
+        <label class="no-pointer" id="text-label">
+          <div class="radio"></div>
+          <input class="input" type="text" id="text-content" placeholder="Tab Text">
         </label>
         <label>
           <div class="radio">
             <div class="mdc-radio">
-              <input class="mdc-radio__native-control" type="radio" id="tab-text--none" name="ex1-default">
+              <input class="mdc-radio__native-control" type="radio" name="radio" value="none">
               <div class="mdc-radio__background">
                 <div class="mdc-radio__outer-circle"></div>
                 <div class="mdc-radio__inner-circle"></div>
@@ -59,7 +59,7 @@
     </section>
 
   </div>
-  <script src="scripts/render.js"></script>
+  <script src="scripts/helpers.js"></script>
   <script src="scripts/options.js"></script>
 </body>
 </html>
