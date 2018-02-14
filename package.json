@@ -1,0 +1,27 @@
+{
+  "name": "chrome-blank-new-tab",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build:development": "gulp build:development",
+    "build:production": "gulp build:production"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-zip": "^4.1.0"
+  },
+  "dependencies": {
+    "material-components-web": "^0.30.0"
+  },
+  "files": [
+    "images/icons/icon-*.png",
+    "LICENSE",
+    "manifest.json",
+    "node_modules/material-components-web/dist/material-components-web.min.css",
+    "pages/*.html",
+    "scripts/*.js",
+    "styles/*.css"
+  ]
+}
