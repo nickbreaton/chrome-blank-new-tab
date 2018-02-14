@@ -1,7 +1,7 @@
 # Blank New Tab
 
 An open-source, customizable, blank new tab page for Google Chrome.<br><br>
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=flat-square)](https://chrome.google.com/webstore/detail/nghggnkjhaidilgmjldjjeeilngmplij)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=flat-square)](https://chrome.google.com/webstore/detail/nghggnkjhaidilgmjldjjeeilngmplij) [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=flat-square)](https://chrome.google.com/webstore/detail/nghggnkjhaidilgmjldjjeeilngmplij)
 
 ### Why another blank new tab page?
 
