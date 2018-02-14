@@ -1,22 +1,21 @@
-const clean = require('gulp-clean')
+const fs = require('fs')
 const gulp = require('gulp')
+const ignore = require('gulp-ignore')
 const zip = require('gulp-zip')
 
-const { name, files } = require('./package.json')
+const { name } = require('./package.json')
 const { version } = require('./manifest.json')
 
-gulp.task('clean:development', () => {
-  return gulp.src('dist/*').pipe(clean())
-})
+const condition = fs
+  .readFileSync('.crxignore')
+  .toString('utf-8')
+  .split('\n')
+  .filter(Boolean)
+  .filter(line => line[0] !== '#')
 
-gulp.task('build:development', ['clean:development'], () => {
-  return gulp.src(files).pipe(gulp.dest('dist'))
-})
-
-gulp.task('build:production', () => {
-  return gulp.src(files)
+gulp.task('default', () => {
+  return gulp.src('**/*')
+    .pipe(ignore.exclude(condition))
     .pipe(zip(`${name}-${version}.zip`))
-    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('dist'))
 })
-
-
