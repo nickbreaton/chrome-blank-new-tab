@@ -3,24 +3,21 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "gulp"
+    "prestart": "rimraf dist/development",
+    "start": "webpack --mode development --watch --devtool sourcemap",
+    "prebuild": "rimraf dist/production*",
+    "build": "webpack --mode production --output-path dist/production",
+    "postbuild": "cd dist && bestzip production.zip production"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cli": "^2.0.1",
-    "gulp-ignore": "^2.0.2",
-    "gulp-zip": "^4.1.0"
+    "bestzip": "^1.1.4",
+    "copy-webpack-plugin": "^4.4.1",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.0.0-beta.1",
+    "webpack-cli": "^2.0.6"
   },
   "dependencies": {
-    "material-components-web": "^0.30.0"
-  },
-  "files": [
-    "**",
-    "!node_modules/**",
-    "manifest.json",
-    "node_modules/material-components-web/dist/material-components-web.min.css",
-    "pages/*.html",
-    "scripts/*.js",
-    "styles/*.css"
-  ]
+    "material-components-web": "^0.30.0",
+    "redux": "^3.7.2"
+  }
 }
