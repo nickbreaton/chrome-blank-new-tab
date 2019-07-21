@@ -1,24 +1,16 @@
 {
-  "name": "Blank New Tab",
-  "version": "1.0.1",
-  "description": "An open-source, customizable, blank new tab page.",
+  "name": "Blank New Tab (with Dark Mode Support)",
+  "version": "2.0.0",
+  "description": "A blank new tab page that supports your system's dark mode.",
   "manifest_version": 2,
+  "minimum_chrome_version": "76.0.0.0",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
-  "options_page": "options.html",
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": false,
-    "open_in_tab": true
-  },
-  "permissions": [
-    "storage"
-  ],
   "icons": {
-    "16": "images/icons/icon-16.png",
-    "32": "images/icons/icon-32.png",
-    "48": "images/icons/icon-48.png",
-    "128": "images/icons/icon-128.png"
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
   }
 }
