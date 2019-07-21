@@ -2,7 +2,7 @@
 
 A blank new tab page that supports the system dark mode.<br>
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=for-the-badge&color=brightgreen)](https://chrome.google.com/webstore/detail/blank-new-tab/nghggnkjhaidilgmjldjjeeilngmplij)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=for-the-badge&color=4185f4)](https://chrome.google.com/webstore/detail/blank-new-tab/nghggnkjhaidilgmjldjjeeilngmplij)
 
 
 <table>
