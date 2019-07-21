@@ -1,16 +1,14 @@
-# Blank New Tab
+# Blank New Tab (with Dark Mode Support)
 
-An open-source, customizable, blank new tab page for Google Chrome.<br><br>
+A blank new tab page that supports the system dark mode.<br><br>
+
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=flat-square)](https://chrome.google.com/webstore/detail/blank-new-tab/nghggnkjhaidilgmjldjjeeilngmplij) [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nghggnkjhaidilgmjldjjeeilngmplij.svg?style=flat-square)](https://chrome.google.com/webstore/detail/blank-new-tab/nghggnkjhaidilgmjldjjeeilngmplij)
 
-### Why another blank new tab page?
 
-While this is a relatively simple extension, others lacked ability to **customize**
-the title of the new tab. This is also the only **open-source** option.
-
-<br>
-<br>
-
-| New Tab | Options  |
-|-------|--------|
-| <img alt="New Tab" src="https://i.imgur.com/APyYrCW.png"> | <img alt="Options" src="https://i.imgur.com/m00JfZy.png"> |
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/kOj4iFs.png" alt="screenshot of light and dark modes">
+    </td>
+  </tr>
+</table>
