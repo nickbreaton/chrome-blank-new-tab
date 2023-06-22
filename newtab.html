@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <title>New Tab</title>
+
+<meta name="color-scheme" content="light dark" />
+
+<!--
+  We can trick Chrome into using the default new tab icon if we intentionally
+  break the favicon. This is a different behavior from not providing a favicon at all.
+-->
+<link rel="icon" href="data:does-not-exist" />
+
 <style>
+  /*
+    Sourced from opening a new tab and seeing which color is displayed
+    for a fraction of a second. Using the same color prevents any flickering.
+  */
   :root {
     --light-mode: #ffffff;
-    --dark-mode: #323639;
+    --dark-mode: #33353a;
   }
 
   body {
     background: var(--light-mode);
   }
 
-  @media(prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     body {
       background: var(--dark-mode);
     }
