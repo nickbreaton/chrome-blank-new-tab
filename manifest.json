@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "A blank new tab page that supports the system dark mode.",
   "manifest_version": 3,
-  "minimum_chrome_version": "76.0.0.0",
+  "minimum_chrome_version": "88.0.0.0",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
