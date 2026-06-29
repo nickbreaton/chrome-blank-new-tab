@@ -1,6 +1,6 @@
 {
   "name": "Blank New Tab (with dark mode support)",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "A blank new tab page that supports your system dark mode.",
   "manifest_version": 3,
   "minimum_chrome_version": "88.0.0.0",
