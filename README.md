@@ -1,4 +1,4 @@
-# Blank New Tab
+# Blank New Tab (with dark mode support)
 
 A blank new tab page that supports your system dark mode.<br>
 
